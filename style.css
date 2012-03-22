@@ -1,0 +1,9 @@
+body { font-family: Verdana, Helvetica, sans-serif; background-color: #33333f; margin: 0px; }
+h1 { font-size: 16pt; }
+h2 { font-size: 14pt; }
+h3 { font-size: 12pt; }
+#content { position: absolute; left: 150px; top: 0px; padding: 10px; width: 700px; border: thin solid #999; background-color: #fff; }
+.usernames { padding-right: 15px; font-size: 10pt; white-space:nowrap; }
+.chart { display: block; padding: 10px 5px 10px 5px; margin-left: auto; margin-right: auto; }
+.GroupData { display: none; }
+.dataItem { font-weight: bold; }

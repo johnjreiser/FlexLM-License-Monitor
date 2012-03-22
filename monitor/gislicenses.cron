@@ -1,0 +1,1 @@
+*/5 * * * * root LANG=C LC_ALL=C /path/to/update_licenses_db.sh
