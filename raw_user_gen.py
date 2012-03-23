@@ -58,6 +58,8 @@ while(timecursor < time.mktime(dLogUntil)):
 	usercount.append(0) # 8 rob geo
 	usercount.append(0) # 9 rob 301
 	usercount.append(0) # 10 rob 311
+### The above slots should correspond to your groups as defined in query_users
+### This will then produce a CSV file that can be used in Excel's PivotTable
 
 	results = cursor.fetchall()
 	for r in results:
@@ -75,3 +77,4 @@ while(timecursor < time.mktime(dLogUntil)):
 	
 	print "".join([str(inc), ",", ",".join("%s" % item for item in usercount)])
 	inc = inc + 1
+
